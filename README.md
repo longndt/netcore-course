@@ -7,7 +7,7 @@
 
 - Razor: view engine
 
-- Tailwind: CSS framework
+- Bootstrap + Tailwind: CSS framework
 
 - SQL Server: database
 
@@ -24,7 +24,7 @@
 
 - Talend API Tester : API testing tool (Chrome extension)
 
-## 3. Syllabus: 
+## 3. Syllabus:
 ### Lab 1:
 - Create an ASP.NET Core MVC project
 
@@ -44,9 +44,9 @@
 - Setup Authentication & Authorization
 
 ### Lab 3:
-- Filter data
+- Filter data + Search + Sort
 
-- Search + Sort
+- Web deployment to Azure
 
 ### Lab 4:
 - Create API with ASP.NET Core
