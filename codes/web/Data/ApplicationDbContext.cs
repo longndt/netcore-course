@@ -12,10 +12,10 @@ namespace web.Data
             : base(options)
         {
         }
-        public DbSet<web.Models.Course> Course { get; set; } = default!;
-        public DbSet<web.Models.Department> Department { get; set; } = default!;
-        public DbSet<web.Models.Student> Student { get; set; } = default!;
-        public DbSet<web.Models.Registration> Registration { get; set; } = default!;
+        public DbSet<Course> Course { get; set; } = default!;
+        public DbSet<Department> Department { get; set; } = default!;
+        public DbSet<Student> Student { get; set; } = default!;
+        public DbSet<Registration> Registration { get; set; } = default!;
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -99,7 +99,8 @@ namespace web.Data
                   StudentName = "Phuong Linh",
                   StudentDoB = DateTime.Parse("2000-05-10"),
                   StudentGPA = 7.8,
-                  StudentImage = "https://img.freepik.com/free-photo/happy-young-female-student-holding-notebooks-from-courses-smiling-camera-standing-spring-clothes-against-blue-background_1258-70161.jpg"
+                  StudentImage = "https://img.freepik.com/free-photo/happy-young-female-student-holding-notebooks-from-courses-smiling-camera-standing-spring-clothes-against-blue-background_1258-70161.jpg",
+                  DepartmentId = 1
               },
                new Student
                {
@@ -107,7 +108,8 @@ namespace web.Data
                    StudentName = "Anh Duy",
                    StudentDoB = DateTime.Parse("2000-10-05"),
                    StudentGPA = 8.9,
-                   StudentImage = "https://i0.wp.com/rollercoasteryears.com/wp-content/uploads/Thrive-During-Finals-.jpg?fit=1000%2C667&ssl=1"
+                   StudentImage = "https://i0.wp.com/rollercoasteryears.com/wp-content/uploads/Thrive-During-Finals-.jpg?fit=1000%2C667&ssl=1",
+                   DepartmentId = 1
                },
                new Student
                {
@@ -115,7 +117,8 @@ namespace web.Data
                    StudentName = "Hoang Viet",
                    StudentDoB = DateTime.Parse("2002-05-15"),
                    StudentGPA = 6.4,
-                   StudentImage = "https://concept3d.com/wp-content/uploads/2023/08/Student-with-more-access-to-academic-resources-due-to-efforts-to-boost-student-retention-and-persistence.jpg"
+                   StudentImage = "https://concept3d.com/wp-content/uploads/2023/08/Student-with-more-access-to-academic-resources-due-to-efforts-to-boost-student-retention-and-persistence.jpg",
+                  DepartmentId = 2
                },
                 new Student
                 {
@@ -123,7 +126,8 @@ namespace web.Data
                     StudentName = "Hai Minh",
                     StudentDoB = DateTime.Parse("2001-06-04"),
                     StudentGPA = 9.2,
-                    StudentImage = "https://concept3d.com/wp-content/uploads/2023/11/Bored-and-disengaged-college-student-who-can-benefit-from-university-student-engagement-strategies.jpg"
+                    StudentImage = "https://concept3d.com/wp-content/uploads/2023/11/Bored-and-disengaged-college-student-who-can-benefit-from-university-student-engagement-strategies.jpg",
+                    DepartmentId = 2
                 },
                 new Student
                 {
@@ -131,7 +135,8 @@ namespace web.Data
                     StudentName = "Quynh Phuong",
                     StudentDoB = DateTime.Parse("2002-07-08"),
                     StudentGPA = 8.3,
-                    StudentImage = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0LWzKUytmI8aZaCLA2dXVonzxOP2kxdupRa8G7GLcXA&s"
+                    StudentImage = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0LWzKUytmI8aZaCLA2dXVonzxOP2kxdupRa8G7GLcXA&s",
+                    DepartmentId = 3
                 }
               );
         }
@@ -139,14 +144,14 @@ namespace web.Data
         private void SeedRegistration(ModelBuilder builder)
         {
             builder.Entity<Registration>().HasData(
-                 new Registration { StudentId = 1, CourseId = 3},
-                  new Registration { StudentId = 1, CourseId = 2 },
-                   new Registration { StudentId = 2, CourseId = 1 },
-                    new Registration { StudentId = 2, CourseId = 5 },
-                     new Registration { StudentId = 3, CourseId = 2 },
-                   new Registration { StudentId = 4, CourseId = 2 },
-                   new Registration { StudentId = 5, CourseId = 2 }
-                   );
+            new Registration { RegistrationId = 1, StudentId = 1, CourseId = 3 },
+            new Registration { RegistrationId = 2, StudentId = 1, CourseId = 2 },
+            new Registration { RegistrationId = 3, StudentId = 2, CourseId = 1 },
+            new Registration { RegistrationId = 4, StudentId = 2, CourseId = 5 },
+            new Registration { RegistrationId = 5, StudentId = 3, CourseId = 2 },
+            new Registration { RegistrationId = 6, StudentId = 4, CourseId = 2 },
+            new Registration { RegistrationId = 7, StudentId = 5, CourseId = 2 }
+            );
         }
     }
 }
