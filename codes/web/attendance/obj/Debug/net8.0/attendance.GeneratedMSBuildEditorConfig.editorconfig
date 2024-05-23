@@ -1,0 +1,183 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = attendance
+build_property.RootNamespace = attendance
+build_property.ProjectDir = D:\workspace\Teaching\netcore-course\codes\web\attendance\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\workspace\Teaching\netcore-course\codes\web\attendance
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Attendances/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Attendances/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Attendances/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Attendances/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Attendances/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Classes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Classes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Classes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Classes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Classes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Enrollments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Enrollments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Enrollments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Enrollments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Enrollments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Students/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Students/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Students/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Students/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Students/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Subjects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Subjects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Subjects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Subjects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Subjects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Teachers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Teachers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Teachers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Teachers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Teachers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Teaching/netcore-course/codes/web/attendance/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-55fy4zlikh

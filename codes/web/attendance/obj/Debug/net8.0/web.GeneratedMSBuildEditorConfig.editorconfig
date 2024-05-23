@@ -1,0 +1,211 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = web
+build_property.RootNamespace = web
+build_property.ProjectDir = D:\workspace\Courses\netcore-course\codes\web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\workspace\Courses\netcore-course\codes\web
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/todo/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dG9kb1xWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/todo/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dG9kb1xWaWV3c1xIb21lXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/todo/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dG9kb1xWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/todo/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dG9kb1xWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/todo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dG9kb1xWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/todo/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dG9kb1xWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Attendances/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Attendances/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Attendances/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Attendances/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Attendances/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Classes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Classes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Classes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Classes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Classes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Enrollments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Enrollments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Enrollments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Enrollments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Enrollments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Students/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Students/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Students/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Students/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Students/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Subjects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Subjects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Subjects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Subjects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Subjects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Teachers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Teachers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Teachers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Teachers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Teachers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/Courses/netcore-course/codes/web/todo/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dG9kb1xWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-8ho5qsqx0z
+
+[D:/workspace/Courses/netcore-course/codes/web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vpkz4e1jaw
