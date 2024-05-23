@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\",
   "Documents": [
     {
@@ -15,10 +16,15 @@
       "RelativeMoniker": "D:0:0:{FF08B7BE-8B6E-4F88-8F5B-225ABC706033}|todo\\todo.csproj|solutionrelative:todo\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
+=======
+  "WorkspaceRootPath": "D:\\workspace\\Courses\\netcore-course\\codes\\web\\",
+  "Documents": [],
+>>>>>>> 319811cc6d7e7db01f53ddf66279f841dd9ec9cd
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< HEAD
       "DocumentGroups": [
         {
           "DockedWidth": 184,
@@ -70,6 +76,9 @@
           ]
         }
       ]
+=======
+      "DocumentGroups": []
+>>>>>>> 319811cc6d7e7db01f53ddf66279f841dd9ec9cd
     }
   ]
 }
