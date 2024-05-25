@@ -1,84 +1,23 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{FF08B7BE-8B6E-4F88-8F5B-225ABC706033}|todo\\todo.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\todo\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF08B7BE-8B6E-4F88-8F5B-225ABC706033}|todo\\todo.csproj|solutionrelative:todo\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF08B7BE-8B6E-4F88-8F5B-225ABC706033}|todo\\todo.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\todo\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF08B7BE-8B6E-4F88-8F5B-225ABC706033}|todo\\todo.csproj|solutionrelative:todo\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF08B7BE-8B6E-4F88-8F5B-225ABC706033}|todo\\todo.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\todo\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF08B7BE-8B6E-4F88-8F5B-225ABC706033}|todo\\todo.csproj|solutionrelative:todo\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
-=======
-  "WorkspaceRootPath": "D:\\workspace\\Courses\\netcore-course\\codes\\web\\",
   "Documents": [],
->>>>>>> 319811cc6d7e7db01f53ddf66279f841dd9ec9cd
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-<<<<<<< HEAD
       "DocumentGroups": [
         {
           "DockedWidth": 184,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\todo\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "todo\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\todo\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "todo\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T11:04:56.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\todo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "todo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\todo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "todo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-23T11:04:00.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\todo\\Views\\Users\\Create.cshtml",
-              "RelativeDocumentMoniker": "todo\\Views\\Users\\Create.cshtml",
-              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\todo\\Views\\Users\\Create.cshtml",
-              "RelativeToolTip": "todo\\Views\\Users\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-23T11:03:39.058Z",
-              "EditorCaption": ""
             }
           ]
         }
       ]
-=======
-      "DocumentGroups": []
->>>>>>> 319811cc6d7e7db01f53ddf66279f841dd9ec9cd
     }
   ]
 }
