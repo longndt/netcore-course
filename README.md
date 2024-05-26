@@ -22,34 +22,33 @@
 
 - SQL Server Management Studio : database management tool (optional)
 
-- Swagger: API testing tool
+- Swagger: API testing tool (integrated in Visual Studio)
 
 ## 3. Syllabus:
 ### Lab 1:
-- Create ASP.NET Core MVC project
+- Create an ASP.NET Core MVC project
 
-- Generate tables with Model
+- Setup database connection & implement Authentication (login/logout, register)
+
+- Create tables with Model
 
 - Implement CRUD features with Scaffolding technique
 
-- Seed data
+- Customize web layout (template) & identity pages
 
-- Customize layout
+- Seed (populate) initial data to database
+
+- Setup Authorization (role-based access) for different features
 
 ### Lab 2:
-- Form handling
+- Setup relationship between tables
 
-- Implement Authentication feature with Identity framework
+- Add data (model) validation
 
-- Setup Authentication & Authorization
-
-- Using SignalR for real-time web application
-
+- Implement Filter + Search + Sort features with LINQ
 
 ### Lab 3:
-- Use LINQ for query: Filter + Search + Sort
-
-- Middleware/Filter
+- Using SignalR for real-time web application
 
 ### Lab 4:
 - Create API with ASP.NET Core
