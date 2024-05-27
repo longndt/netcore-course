@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A288E0CE-E2E9-4D55-AC2F-727711DDDF79}|lab1\\lab1.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\lab1\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A288E0CE-E2E9-4D55-AC2F-727711DDDF79}|lab1\\lab1.csproj|solutionrelative:lab1\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\lab2\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|solutionrelative:lab2\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\lab2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|solutionrelative:lab2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Migrations\\20240527171217_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lab2\\Migrations\\20240527171217_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\lab2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|solutionrelative:lab2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Migrations\\20240527171106_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lab2\\Migrations\\20240527171106_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\lab2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|solutionrelative:lab2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\lab2\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|solutionrelative:lab2\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\lab2\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|solutionrelative:lab2\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\lab2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|solutionrelative:lab2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Data\\Migrations\\20240527163850_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lab2\\Data\\Migrations\\20240527163850_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\lab2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578B18CA-50B0-4B81-9FB0-14673891F967}|lab2\\lab2.csproj|solutionrelative:lab2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "lab1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "lab1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAADwv5IAAAA1AAAA",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lab2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lab2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvyUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T17:16:38.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240527171217_first.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Migrations\\20240527171217_first.cs",
+              "RelativeDocumentMoniker": "lab2\\Migrations\\20240527171217_first.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Migrations\\20240527171217_first.cs",
+              "RelativeToolTip": "lab2\\Migrations\\20240527171217_first.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T08:56:27.986Z",
+              "WhenOpened": "2024-05-27T17:12:18.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240527171106_first.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Migrations\\20240527171106_first.cs",
+              "RelativeDocumentMoniker": "lab2\\Migrations\\20240527171106_first.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Migrations\\20240527171106_first.cs",
+              "RelativeToolTip": "lab2\\Migrations\\20240527171106_first.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:11:06.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "lab2\\Controllers\\TasksController.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "lab2\\Controllers\\TasksController.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:09:12.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "lab2\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "lab2\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:07:20.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240527163850_First.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Data\\Migrations\\20240527163850_First.cs",
+              "RelativeDocumentMoniker": "lab2\\Data\\Migrations\\20240527163850_First.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Data\\Migrations\\20240527163850_First.cs",
+              "RelativeToolTip": "lab2\\Data\\Migrations\\20240527163850_First.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:38:50.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "lab2\\Models\\Category.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Models\\Category.cs",
+              "RelativeToolTip": "lab2\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:29:13.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Models\\User.cs",
+              "RelativeDocumentMoniker": "lab2\\Models\\User.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Models\\User.cs",
+              "RelativeToolTip": "lab2\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:28:46.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Models\\Tasks.cs",
+              "RelativeDocumentMoniker": "lab2\\Models\\Tasks.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Models\\Tasks.cs",
+              "RelativeToolTip": "lab2\\Models\\Tasks.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:28:15.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "lab2\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "lab2\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAASwA0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:28:39.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "lab2\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\lab2\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "lab2\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:29:57.834Z",
               "EditorCaption": ""
             }
           ]
