@@ -38,6 +38,8 @@
 
 - Seed (populate) initial data to database
 
+- Set default role for user registration
+
 - Setup Authorization (role-based access) for different features
 
 ### Lab 2:
