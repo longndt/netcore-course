@@ -48,7 +48,7 @@ namespace web.Controllers
         // GET: Books/Create
         public IActionResult Create()
         {
-            ViewData["GenreId"] = new SelectList(_context.Set<Genre>(), "GenreId", "GenreName");
+            ViewData["GenreId"] = new SelectList(_context.Genre, "GenreId", "GenreName");
             return View();
         }
 
@@ -65,7 +65,7 @@ namespace web.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["GenreId"] = new SelectList(_context.Set<Genre>(), "GenreId", "GenreName", book.GenreId);
+            ViewData["GenreId"] = new SelectList(_context.Genre, "GenreId", "GenreName", book.GenreId);
             return View(book);
         }
 
@@ -82,7 +82,7 @@ namespace web.Controllers
             {
                 return NotFound();
             }
-            ViewData["GenreId"] = new SelectList(_context.Set<Genre>(), "GenreId", "GenreName", book.GenreId);
+            ViewData["GenreId"] = new SelectList(_context.Genre, "GenreId", "GenreName", book.GenreId);
             return View(book);
         }
 
@@ -118,7 +118,7 @@ namespace web.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["GenreId"] = new SelectList(_context.Set<Genre>(), "GenreId", "GenreName", book.GenreId);
+            ViewData["GenreId"] = new SelectList(_context.Genre, "GenreId", "GenreName", book.GenreId);
             return View(book);
         }
 
