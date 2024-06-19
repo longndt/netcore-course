@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "D:\\workspace\\Courses\\netcore-course\\codes\\api\\api.Server\\..\\api.client",
+"WorkingDirectory": "D:\\workspace\\Teaching\\netcore-course\\codes\\api\\api.Server\\..\\api.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "5njmkYmQcgdJFm1fFgU17wNVpqJzvOdRMVqNK+ZVsA8=",
+  "Hash": "Wx+6gLqqyzNqrzxIZ25GZ1cPeYv9Y7IMx7tT3IKor+E=",
   "Source": "api.Server",
   "BasePath": "_content/api.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\workspace\\Courses\\netcore-course\\codes\\api\\api.client\\api.client.esproj",
+      "Identity": "D:\\workspace\\Teaching\\netcore-course\\codes\\api\\api.client\\api.client.esproj",
       "Version": 2,
       "Source": "api.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

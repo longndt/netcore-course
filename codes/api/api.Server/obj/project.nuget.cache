@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BqRUwz8w+tX9iEb0zo6G+7tTuyqGNyPHZTfXpKsVBP5/A1QQivQBtFDHszeR+X7uxredT/vSyTM3+uEpi0KD/Q==",
+  "dgSpecHash": "hRYgRJVuS88=",
   "success": true,
-  "projectFilePath": "D:\\workspace\\Courses\\netcore-course\\codes\\api\\api.Server\\api.Server.csproj",
+  "projectFilePath": "D:\\workspace\\Teaching\\netcore-course\\codes\\api\\api.Server\\api.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\longn\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\longn\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -57,7 +57,7 @@
     "C:\\Users\\longn\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\longn\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
     "C:\\Users\\longn\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
-    "C:\\Users\\longn\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.5\\microsoft.aspnetcore.spaproxy.8.0.5.nupkg.sha512",
+    "C:\\Users\\longn\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.6\\microsoft.aspnetcore.spaproxy.8.0.6.nupkg.sha512",
     "C:\\Users\\longn\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\longn\\.nuget\\packages\\microsoft.build\\17.8.3\\microsoft.build.17.8.3.nupkg.sha512",
     "C:\\Users\\longn\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",

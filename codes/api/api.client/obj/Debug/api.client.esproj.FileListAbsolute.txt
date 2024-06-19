@@ -1,1 +1,2 @@
 D:\workspace\Courses\netcore-course\codes\api\api.client\obj\Debug\api.client.esproj.CoreCompileInputs.cache
+D:\workspace\Teaching\netcore-course\codes\api\api.client\obj\Debug\api.client.esproj.CoreCompileInputs.cache

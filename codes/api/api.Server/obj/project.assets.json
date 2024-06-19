@@ -649,7 +649,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {}
         }
       },
-      "Microsoft.AspNetCore.SpaProxy/8.0.5": {
+      "Microsoft.AspNetCore.SpaProxy/8.0.6": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll": {}
@@ -3652,10 +3652,10 @@
         "microsoft.aspnetcore.razor.language.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.SpaProxy/8.0.5": {
-      "sha512": "7iEMQelKbwKS5Lk79d/yTOqYSiLPq/wB07Gx4FaFUmF4cv+jtR7vWE55ODaioM+WOHV/ke9HqBCrpfilaaG/Vw==",
+    "Microsoft.AspNetCore.SpaProxy/8.0.6": {
+      "sha512": "LBIMKEYxs06TJi/7ekqbfJ8VuoBqC3EORy+mw7Xp0gDIdDGhuaKkeT8BWIzetBbGVix4Tpn3k9GEdJ8Z7E7YOw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.spaproxy/8.0.5",
+      "path": "microsoft.aspnetcore.spaproxy/8.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3663,7 +3663,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "build/Microsoft.AspNetCore.SpaProxy.targets",
         "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll",
-        "microsoft.aspnetcore.spaproxy.8.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.spaproxy.8.0.6.nupkg.sha512",
         "microsoft.aspnetcore.spaproxy.nuspec"
       ]
     },
@@ -8292,11 +8292,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\Courses\\netcore-course\\codes\\api\\api.Server\\api.Server.csproj",
+      "projectUniqueName": "D:\\workspace\\Teaching\\netcore-course\\codes\\api\\api.Server\\api.Server.csproj",
       "projectName": "api.Server",
-      "projectPath": "D:\\workspace\\Courses\\netcore-course\\codes\\api\\api.Server\\api.Server.csproj",
+      "projectPath": "D:\\workspace\\Teaching\\netcore-course\\codes\\api\\api.Server\\api.Server.csproj",
       "packagesPath": "C:\\Users\\longn\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\Courses\\netcore-course\\codes\\api\\api.Server\\obj\\",
+      "outputPath": "D:\\workspace\\Teaching\\netcore-course\\codes\\api\\api.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8377,7 +8377,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
