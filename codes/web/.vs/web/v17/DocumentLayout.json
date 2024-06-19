@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\migrations\\20240619164352_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:migrations\\20240619164352_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\data\\migrations\\20240603180930_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:data\\migrations\\20240603180930_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +30,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T16:45:59.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240619164352_First.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Migrations\\20240619164352_First.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240619164352_First.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Migrations\\20240619164352_First.cs",
+              "RelativeToolTip": "Migrations\\20240619164352_First.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:43:53.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
               "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Models\\Book.cs",
               "RelativeToolTip": "Models\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T18:10:04.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Genre.cs",
               "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "Models\\Genre.cs",
@@ -51,31 +85,17 @@
               "RelativeToolTip": "Models\\Genre.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T18:10:02.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T18:10:02.313Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20240603180930_Second.cs",
-              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Data\\Migrations\\20240603180930_Second.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240603180930_Second.cs",
-              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Data\\Migrations\\20240603180930_Second.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240603180930_Second.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T18:09:31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAADwvxEAAAAvAAAA",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAkwJMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T18:09:02.021Z",
               "EditorCaption": ""

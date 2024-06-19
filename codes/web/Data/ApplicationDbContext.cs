@@ -24,11 +24,11 @@ namespace web.Data
             //Seed data for User & Role
             SeedUserRole(builder);
 
-            //Seed data for table Book
-            SeedBook(builder);
-
             //Seed data for table Genre
             SeedGenre(builder);
+
+            //Seed data for table Book
+            SeedBook(builder);
         }
 
         private void SeedUserRole(ModelBuilder builder)
@@ -95,6 +95,28 @@ namespace web.Data
              );
         }
 
+        private void SeedGenre(ModelBuilder builder)
+        {
+            builder.Entity<Genre>().HasData(
+                new Genre
+                {
+                    GenreId = 1,
+                    GenreName = "Programming"
+
+                },
+                new Genre
+                {
+                    GenreId = 2,
+                    GenreName = "Self-help"
+                },
+                new Genre
+                {
+                    GenreId = 3,
+                    GenreName = "Novel"
+                }
+             );
+        }
+
         private void SeedBook(ModelBuilder builder)
         {
             builder.Entity<Book>().HasData(
@@ -121,28 +143,6 @@ namespace web.Data
                     BookPrice = 6.78,
                     BookCover = "https://nhasachphuongnam.com/images/detailed/160/81YOuOGFCJL.jpg",
                     GenreId = 3
-                }
-             );
-        }
-
-        private void SeedGenre(ModelBuilder builder)
-        {
-            builder.Entity<Genre>().HasData(
-                new Genre
-                {
-                    GenreId = 1,
-                    GenreName = "Programming"
-
-                },
-                new Genre
-                {
-                    GenreId = 2,
-                    GenreName = "Self-help"
-                },
-                new Genre
-                {
-                    GenreId = 3,
-                    GenreName = "Novel"
                 }
              );
         }

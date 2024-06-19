@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using web.Data;
 
-namespace web.Data.Migrations
+namespace web.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -49,14 +49,14 @@ namespace web.Data.Migrations
                         new
                         {
                             Id = "role1",
-                            ConcurrencyStamp = "f4d11140-49ec-43ad-ac16-469360e6df91",
+                            ConcurrencyStamp = "a5683e37-e399-4b3b-acba-7a0fbb875c1b",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "role2",
-                            ConcurrencyStamp = "c6fe86f3-59d5-46be-909d-92bf1f38de36",
+                            ConcurrencyStamp = "b4a206b0-4be9-4b2e-b277-1aa6d16d291e",
                             Name = "Reader",
                             NormalizedName = "READER"
                         });
@@ -155,15 +155,15 @@ namespace web.Data.Migrations
                         {
                             Id = "user1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "fd746741-d2fa-49f5-b80e-5af7cac13e27",
+                            ConcurrencyStamp = "145c3535-e693-4d39-8de7-73beac8d8e52",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJzXzgyGWmLz4VnGdvweEiQ7E+ZmL0Ks7SBs6moJExXkXd1sYnjPgliwufakiKyG+w==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFQ3PiswQncNI48XvwngWiaNc/CUXpib1pP9PixUdE8zGk1BEXQFTMx0IWTTGuOiaA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "baa5a49c-e5bc-4137-9622-3f6f5d8111cd",
+                            SecurityStamp = "f58d1d2e-49fd-49a8-8e13-c3821ee5acc5",
                             TwoFactorEnabled = false,
                             UserName = "admin@gmail.com"
                         },
@@ -171,15 +171,15 @@ namespace web.Data.Migrations
                         {
                             Id = "user2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "164fd683-08e7-4e22-9c23-ce748c2f6d6c",
+                            ConcurrencyStamp = "37ce466f-8996-464f-9842-510d353fea31",
                             Email = "reader@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "READER@GMAIL.COM",
                             NormalizedUserName = "READER@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAECus+b9B2RgvoxXSG67LnCK6H2L3TRXHECsJgIaoQsZ0bvMnhdS42H3UOOA35VJbpA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEACA/owbQwewpAcqimyjXozSmibKyIAAmRb0I82ULhVL5M79iMmPBGeV0Y5408RTKQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "2e195718-cdf5-4bf6-b77b-c274271745d8",
+                            SecurityStamp = "6a81b847-ffb1-4f43-bef7-359f7700eeb9",
                             TwoFactorEnabled = false,
                             UserName = "reader@gmail.com"
                         });
