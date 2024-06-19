@@ -30,7 +30,7 @@
 
 - Setup database connection & implement Authentication (login/logout, register)
 
-- Create tables with Model
+- Create tables using ORM technique
 
 - Implement CRUD features with Scaffolding technique
 
@@ -47,7 +47,7 @@
 
 - Add data (model) validation
 
-- Implement Filter + Search + Sort features with LINQ
+- Implement Filter + Search + Sort features 
 
 ### Lab 3:
 - Using SignalR for real-time web application

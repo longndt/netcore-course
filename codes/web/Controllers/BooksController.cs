@@ -156,5 +156,24 @@ namespace web.Controllers
         {
             return _context.Book.Any(e => e.BookId == id);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> SearchByTitle(string title)
+        {
+            var books = _context.Book.Include(b => b.Genre).Where(b => b.BookTitle.Contains(title));
+            return View("Index", await books.ToListAsync());
+        }
+
+        public async Task<IActionResult> SortPriceAsc()
+        {
+            var books = _context.Book.Include(b => b.Genre).OrderBy(b => b.BookPrice);
+            return View("Index", await books.ToListAsync());
+        }
+
+        public async Task<IActionResult> SortPriceDesc()
+        {
+            var books = _context.Book.Include(b => b.Genre).OrderByDescending(b => b.BookPrice);
+            return View("Index", await books.ToListAsync());
+        }
     }
 }

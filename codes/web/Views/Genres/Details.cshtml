@@ -5,7 +5,6 @@
 }
 
 <h1>Genre Details</h1>
-
 <div>
    <table class="table table-bordered">
        <tr>
@@ -16,7 +15,7 @@
         {
             <tr>
                 <td>
-                    <a asp-controller="Book" asp-action="Detail" 
+                    <a asp-controller="Books" asp-action="Details" 
                     asp-route-id="@book.BookId">@book.BookTitle</a>
                  </td>
                 <td>$@book.BookPrice</td>
