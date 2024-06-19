@@ -1,0 +1,30 @@
+﻿@model web.Models.Genre
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Genre Details</h1>
+
+<div>
+   <table class="table table-bordered">
+       <tr>
+           <th>Book Title</th>
+           <th>Book Price</th>
+       </tr>
+        @foreach (var book in Model.Books)
+        {
+            <tr>
+                <td>
+                    <a asp-controller="Book" asp-action="Detail" 
+                    asp-route-id="@book.BookId">@book.BookTitle</a>
+                 </td>
+                <td>$@book.BookPrice</td>
+            </tr>
+        }
+    </table>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.GenreId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

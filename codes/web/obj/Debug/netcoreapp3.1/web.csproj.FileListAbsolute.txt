@@ -504,3 +504,8 @@ D:\workspace\Teaching\netcore-course\codes\web\obj\Debug\netcoreapp3.1\Razor\Vie
 D:\workspace\Teaching\netcore-course\codes\web\obj\Debug\netcoreapp3.1\Razor\Views\Books\Details.cshtml.g.cs
 D:\workspace\Teaching\netcore-course\codes\web\obj\Debug\netcoreapp3.1\Razor\Views\Books\Edit.cshtml.g.cs
 D:\workspace\Teaching\netcore-course\codes\web\obj\Debug\netcoreapp3.1\Razor\Views\Books\Index.cshtml.g.cs
+D:\workspace\Teaching\netcore-course\codes\web\obj\Debug\netcoreapp3.1\Razor\Views\Genres\Create.cshtml.g.cs
+D:\workspace\Teaching\netcore-course\codes\web\obj\Debug\netcoreapp3.1\Razor\Views\Genres\Delete.cshtml.g.cs
+D:\workspace\Teaching\netcore-course\codes\web\obj\Debug\netcoreapp3.1\Razor\Views\Genres\Details.cshtml.g.cs
+D:\workspace\Teaching\netcore-course\codes\web\obj\Debug\netcoreapp3.1\Razor\Views\Genres\Edit.cshtml.g.cs
+D:\workspace\Teaching\netcore-course\codes\web\obj\Debug\netcoreapp3.1\Razor\Views\Genres\Index.cshtml.g.cs
