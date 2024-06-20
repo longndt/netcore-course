@@ -54,9 +54,6 @@
 - Search + Sort 
 
 ### Lab 3:
-- Using SignalR for real-time web application
-
-### Lab 4:
 - Create API with ASP.NET Core
 
 - Consume API with VueJS
