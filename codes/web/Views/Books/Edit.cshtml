@@ -10,7 +10,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="BookId" />
             <div class="form-group">
@@ -24,12 +24,13 @@
                 <span asp-validation-for="BookPrice" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="BookCover" class="control-label"></label>
-                <input asp-for="BookCover" class="form-control" />
+                <label asp-for="BookCover" class="control-label mb-3"></label><br />
+                <img src="@Model.BookCover" width="100" height="120"/>
+                <input asp-for="BookCover" class="form-control mt-3" type="file" accept="image/*" />
                 <span asp-validation-for="BookCover" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="GenreId" class="control-label"></label>
+                <label asp-for="GenreId" class="control-label">BookGenre</label>
                 <select asp-for="GenreId" class="form-control" asp-items="ViewBag.GenreId"></select>
                 <span asp-validation-for="GenreId" class="text-danger"></span>
             </div>

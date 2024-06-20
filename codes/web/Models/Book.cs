@@ -12,7 +12,6 @@ namespace web.Models
         [Range(5, 500, ErrorMessage = "Price must be 5$ to 500$")]
         public double BookPrice { get; set; }
 
-        [Url]
         public string BookCover { get; set; }
 
         public int GenreId { get; set; }

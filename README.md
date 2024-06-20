@@ -47,7 +47,11 @@
 
 - Add data (model) validation
 
-- Implement Filter + Search + Sort features 
+- Upload image
+
+- Filter data
+
+- Search + Sort 
 
 ### Lab 3:
 - Using SignalR for real-time web application

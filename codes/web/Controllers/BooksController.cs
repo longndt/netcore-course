@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -53,14 +55,31 @@ namespace web.Controllers
         }
 
         // POST: Books/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("BookId,BookTitle,BookPrice,BookCover,GenreId")] Book book)
+        public async Task<IActionResult> Create(Book book, IFormFile BookCover)
         {
             if (ModelState.IsValid)
             {
+                //validate image is valid or not
+                if (BookCover != null && BookCover.Length > 0)
+                {
+                    //set image file name
+                    //Note: should add a prefix such as "BookId" to make sure the file name is unique
+                    var fileName = book.BookId + "_" + Path.GetFileName(BookCover.FileName);
+                    //set image file location
+                    //Note: should create a subfolder named "images" in "wwwroot" to store all images
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images", fileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        //copy (upload) image file from orignal location to project folder
+                        BookCover.CopyTo(stream);
+                    }
+
+                    //set image file name for book cover
+                    book.BookCover = "/images/" + fileName;
+                }
                 _context.Add(book);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -87,11 +106,9 @@ namespace web.Controllers
         }
 
         // POST: Books/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("BookId,BookTitle,BookPrice,BookCover,GenreId")] Book book)
+        public async Task<IActionResult> Edit(int id, Book book, IFormFile BookCover)
         {
             if (id != book.BookId)
             {
@@ -102,6 +119,31 @@ namespace web.Controllers
             {
                 try
                 {
+                    //check if a new image file is uploaded or not
+                    if (BookCover != null && BookCover.Length > 0)
+                    {
+                        //set image file name
+                        //Note: should add a prefix such as "BookId" to make sure the file name is unique
+                        var fileName = book.BookId + "_" + Path.GetFileName(BookCover.FileName);
+                        //set image file location
+                        //Note: should create a subfolder named "images" in "wwwroot" to store all images
+                        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images", fileName);
+
+                        using (var stream = new FileStream(filePath, FileMode.Create))
+                        {
+                            //copy (upload) image file from orignal location to project folder
+                            BookCover.CopyTo(stream);
+                        }
+
+                        //set image file name for book cover
+                        book.BookCover = "/images/" + fileName;
+                    } 
+                    //use the existing image file if no image file is uploaded
+                    else
+                    {
+                        var existingBook = _context.Book.AsNoTracking().FirstOrDefault(b => b.BookId == book.BookId);
+                        book.BookCover = existingBook.BookCover;
+                    }
                     _context.Update(book);
                     await _context.SaveChangesAsync();
                 }
