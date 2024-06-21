@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\workspace\\Teaching\\netcore-course\\codes\\api\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{61E0A16B-C754-45EE-9650-A854A0DFBF91}|api.client\\api.client.esproj|d:\\workspace\\teaching\\netcore-course\\codes\\api\\api.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{61E0A16B-C754-45EE-9650-A854A0DFBF91}|api.client\\api.client.esproj|solutionrelative:api.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,22 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 249,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "index.html",
-              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\api\\api.client\\index.html",
-              "RelativeDocumentMoniker": "api.client\\index.html",
-              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\api\\api.client\\index.html",
-              "RelativeToolTip": "api.client\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-20T14:46:58.473Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
