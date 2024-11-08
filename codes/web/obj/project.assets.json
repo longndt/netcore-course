@@ -9694,7 +9694,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GRAM\\.nuget\\packages\\": {},
+    "C:\\Users\\longn\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -9703,14 +9703,14 @@
       "projectUniqueName": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\web.csproj",
       "projectName": "web",
       "projectPath": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\web.csproj",
-      "packagesPath": "C:\\Users\\GRAM\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\longn\\.nuget\\packages\\",
       "outputPath": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\GRAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\longn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9795,7 +9795,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

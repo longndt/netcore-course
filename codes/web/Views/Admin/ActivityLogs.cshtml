@@ -1,0 +1,24 @@
+﻿@model List<ActivityLog>
+
+<h2>User Activity Logs</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>User</th>
+            <th>Path</th>
+            <th>Accessed At</th>
+            <th>Duration (ms)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var log in Model)
+        {
+            <tr>
+                <td>@log.UserName</td>
+                <td>@log.Path</td>
+                <td>@log.AccessedAt.ToString("g")</td>
+                <td>@log.DurationMs</td>
+            </tr>
+        }
+    </tbody>
+</table>

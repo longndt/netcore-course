@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using web.Data;
+using web.Middlewares;
 
 namespace web
 {
@@ -54,6 +55,8 @@ namespace web
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+            //register Activity Logging Middleware
+            app.UseMiddleware<ActivityLoggingMiddleware>();
             app.UseRouting();
 
             app.UseAuthentication();

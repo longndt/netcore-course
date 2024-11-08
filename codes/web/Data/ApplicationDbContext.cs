@@ -16,12 +16,14 @@ namespace web.Data
         }
         public DbSet<Book> Book { get; set; }
         public DbSet<Genre> Genre { get; set; }
+        public DbSet<ActivityLog> ActivityLogs { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
-            //Seed data for User & Role
+            //Seed data for User & Role`
+            //Seed data for User & Role`
             SeedUserRole(builder);
 
             //Seed data for table Genre
@@ -131,9 +133,9 @@ namespace web.Data
                 new Book
                 {
                     BookId = 2,
-                    BookTitle = "How to win friends & influence people",
+                    BookTitle = "The Mindfulness Journal",
                     BookPrice = 9.99,
-                    BookCover = "https://rukminim2.flixcart.com/image/850/1000/kkr72q80/book/k/4/l/how-to-win-friends-influence-people-international-bestseller-original-imagyf2wgzsbgvba.jpeg?q=90&crop=false",
+                    BookCover = "https://m.media-amazon.com/images/I/91nJdrcNBtL._AC_UF1000,1000_QL80_.jpg",
                     GenreId = 2
                 },
                 new Book
