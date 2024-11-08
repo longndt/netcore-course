@@ -55,10 +55,13 @@
                 <td>
                     <a asp-controller="Genres" asp-action="Details" asp-route-id="@item.Genre.GenreId">@item.Genre.GenreName</a>
                 </td>
-                <td>
-                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.BookId">Edit</a>
+                <td>                    
                     <a class="btn btn-info" asp-action="Details" asp-route-id="@item.BookId">Details</a>
-                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.BookId">Delete</a>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                    {
+                        <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.BookId">Edit</a>
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.BookId">Delete</a>
+                    }
                 </td>
             </tr>
         }

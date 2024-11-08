@@ -510,3 +510,4 @@ D:\workspace\Teaching\netcore-course\codes\web\obj\Debug\netcoreapp3.1\web.dll
 D:\workspace\Teaching\netcore-course\codes\web\obj\Debug\netcoreapp3.1\web.pdb
 D:\workspace\Teaching\netcore-course\codes\web\obj\Debug\netcoreapp3.1\web.genruntimeconfig.cache
 D:\workspace\Teaching\netcore-course\codes\web\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ActivityLogs.cshtml.g.cs
+D:\workspace\Teaching\netcore-course\codes\web\obj\Debug\netcoreapp3.1\Razor\Views\Admin\UserList.cshtml.g.cs

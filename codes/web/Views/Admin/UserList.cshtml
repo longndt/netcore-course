@@ -1,0 +1,61 @@
+﻿@model List<web.ViewModels.UserViewModel>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Message"]
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+<h2>User Management</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Email</td>
+                <td>@string.Join(", ", user.Roles)</td>
+                <td>
+                    @{
+                        if (!user.Roles.Contains("Admin"))
+                        {
+                            <form asp-action="ResetPass" asp-route-id="@user.Id" method="post" style="display:inline;">
+                                <button type="submit" class="btn btn-warning">Reset Password</button>
+                            </form>
+
+                            @if (!user.IsBlocked)
+                            {
+                                <form asp-action="BlockUser" asp-route-id="@user.Id" method="post" style="display:inline;">
+                                    <button type="submit" class="btn btn-danger">Block User</button>
+                                </form>
+                            }
+                            else
+                            {
+                                <form asp-action="UnblockUser" asp-route-id="@user.Id" method="post" style="display:inline;">
+                                    <button type="submit" class="btn btn-primary">Unblock User</button>
+                                </form>
+                            }
+                        }
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

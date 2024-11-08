@@ -54,6 +54,18 @@
 - Search + Sort 
 
 ### Lab 3:
+- Display user list
+
+- Reset user password
+
+- Block/unblock user
+
+### Lab 4:
+- Create middleware for logging user activities
+
+- Create background service for display notifications
+
+### Lab 5:
 - Create API with ASP.NET Core
 
 - Consume API with VueJS

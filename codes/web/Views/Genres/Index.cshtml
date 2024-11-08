@@ -19,17 +19,22 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.GenreName)
-            </td>
-            <td>
-                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.GenreId">Edit</a> 
-                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.GenreId">Details</a> 
-                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.GenreId">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GenreName)
+                </td>
+                <td>
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.GenreId">Details</a>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                    {
+
+                        <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.GenreId">Edit</a>
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.GenreId">Delete</a>
+                    }
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
