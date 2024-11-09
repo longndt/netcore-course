@@ -18,16 +18,21 @@
 <table class="table table-bordered">
     <thead>
         <tr>
+            <th>No.</th>
             <th>ID</th>
             <th>Email</th>
             <th>Role</th>
             <th>Actions</th>
         </tr>
     </thead>
+    @{
+        var counter = 1;
+    }
     <tbody>
         @foreach (var user in Model)
         {
             <tr>
+                <td>@counter</td>
                 <td>@user.Id</td>
                 <td>@user.Email</td>
                 <td>@string.Join(", ", user.Roles)</td>
@@ -55,6 +60,7 @@
                     }
                 </td>
             </tr>
+            counter++;
         }
     </tbody>
 </table>

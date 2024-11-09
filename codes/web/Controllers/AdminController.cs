@@ -17,10 +17,10 @@ namespace web.Controllers
         private readonly UserManager<IdentityUser> _userManager;
         private readonly ApplicationDbContext _context;
 
-        public AdminController(UserManager<IdentityUser> userManager, ApplicationDbContext context)
+        public AdminController(UserManager<IdentityUser> userManager, ApplicationDbContext dbContext)
         {
             _userManager = userManager;
-            _context = context;
+            _context = dbContext;
         }
 
         public async Task<IActionResult> UserList()
@@ -31,14 +31,14 @@ namespace web.Controllers
             foreach (var user in users)
             {
                 var roles = await _userManager.GetRolesAsync(user);
-                var isLockedOut = await _userManager.IsLockedOutAsync(user);
+                var isBlocked = await _userManager.IsLockedOutAsync(user);
 
                 userList.Add(new UserViewModel
                 {
                     Id = user.Id,
                     Email = user.Email,
                     Roles = roles.ToList(),
-                    IsBlocked = isLockedOut
+                    IsBlocked = isBlocked
                 });
             }
             return View(userList);
