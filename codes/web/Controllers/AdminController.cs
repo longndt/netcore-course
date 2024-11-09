@@ -56,7 +56,7 @@ namespace web.Controllers
 
             // Generate a password reset token
             var token = await _userManager.GeneratePasswordResetTokenAsync(user);
-            var newPassword = "123@Abc";  
+            var newPassword = "123@Abc";
 
             // Reset the password using the token
             var result = await _userManager.ResetPasswordAsync(user, token, newPassword);
@@ -124,9 +124,15 @@ namespace web.Controllers
             return RedirectToAction("UserList");
         }
 
-        public async Task<IActionResult> ActivityLogs()
+        public async Task<IActionResult> ActivityLogs(int page = 1, int pageSize = 10)
         {
-            var logs = await _context.ActivityLogs.OrderByDescending(log => log.AccessedAt).ToListAsync();
+            var logs = _context.ActivityLogs
+                                .OrderByDescending(log => log.AccessedAt)
+                                .Skip((page - 1) * pageSize)
+                                .Take(pageSize)
+                                .ToList();
+
+            ViewData["CurrentPage"] = page;
             return View(logs);
         }
     }

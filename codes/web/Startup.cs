@@ -46,6 +46,7 @@ namespace web
 
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddMemoryCache();
         }
 
 

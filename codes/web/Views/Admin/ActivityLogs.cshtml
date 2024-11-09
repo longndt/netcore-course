@@ -1,6 +1,20 @@
 ﻿@model List<ActivityLog>
 
-<h2>User Activity Logs</h2>
+@{
+    var page = ViewData["CurrentPage"] as int? ?? 1;
+}
+
+<h2 class="alert alert-info">Activity Logs</h2>
+<nav>
+    <ul class="pagination">
+        <li class="page-item">
+            <a class="page-link" href="?page=@(page - 1)" aria-label="Previous">Previous</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="?page=@(page + 1)" aria-label="Next">Next</a>
+        </li>
+    </ul>
+</nav>
 <table class="table table-striped">
     <thead>
         <tr>

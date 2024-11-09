@@ -39,6 +39,7 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.32",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.32",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.5",
+          "Pagination.EntityFrameworkCore.Extensions": "2.5.6",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1409,6 +1410,20 @@
         },
         "compile": {
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
+        }
+      },
+      "Pagination.EntityFrameworkCore.Extensions/2.5.6": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.32"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Pagination.EntityFrameworkCore.Extensions.dll": {
+            "assemblyVersion": "2.5.6.0",
+            "fileVersion": "2.5.6.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Pagination.EntityFrameworkCore.Extensions.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -4664,6 +4679,13 @@
       "sha512": "sha512-qbXaB76XYUVLocLBs8Z9TS/ERGK2wm797feO+0JEPFvT7o7MRadOR77mqaSD4J1k8G+DlZQyq+MlkCuxrkr3ag==",
       "path": "nuget.frameworks/4.7.0",
       "hashPath": "nuget.frameworks.4.7.0.nupkg.sha512"
+    },
+    "Pagination.EntityFrameworkCore.Extensions/2.5.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4k/PBxaXQ0Pti2A929cFOgQWm8v6pACq+3OxGNmRGmwyptCkWGA7OYP9ryZWozbOFutWAPrXz8YMNtNztGRbqA==",
+      "path": "pagination.entityframeworkcore.extensions/2.5.6",
+      "hashPath": "pagination.entityframeworkcore.extensions.2.5.6.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

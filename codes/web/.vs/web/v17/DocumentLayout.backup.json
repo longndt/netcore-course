@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,22 +32,9 @@
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
               "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAwIcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T03:10:30.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserList.cshtml",
-              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Views\\Admin\\UserList.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\UserList.cshtml",
-              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Views\\Admin\\UserList.cshtml",
-              "RelativeToolTip": "Views\\Admin\\UserList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-09T03:09:33.818Z",
+              "WhenOpened": "2024-11-09T17:18:25.009Z",
               "EditorCaption": ""
             }
           ]

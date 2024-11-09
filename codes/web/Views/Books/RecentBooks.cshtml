@@ -1,0 +1,12 @@
+﻿@model List<Book>
+<h3 class="alert alert-success">Recently Added Books</h3>
+<ul>
+    @foreach (var book in Model)
+    {
+        <li>
+            <a asp-action="Details" asp-route-id="@book.BookId">
+                @book.BookTitle
+            </a>
+        </li>
+    }
+</ul>

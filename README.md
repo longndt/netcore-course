@@ -7,7 +7,7 @@
 
 - Razor: view engine
 
-- Bootstrap: CSS frameworks
+- Bootstrap: CSS frameworks (integrated in ASP MVC project)
 
 - SQL Server: database
 
@@ -61,9 +61,9 @@
 - Block/unblock user
 
 ### Lab 4:
-- Create middleware for logging user activities
+- Implement caching for frequently accessed data 
 
-- Create background service for display notifications
+- Create middleware to log user activities
 
 ### Lab 5:
 - Create API with ASP.NET Core

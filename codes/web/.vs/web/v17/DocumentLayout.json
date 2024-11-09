@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\views\\admin\\activitylogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:views\\admin\\activitylogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 566,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +27,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ActivityLogs.cshtml",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Views\\Admin\\ActivityLogs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ActivityLogs.cshtml",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Views\\Admin\\ActivityLogs.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ActivityLogs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T17:27:41.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Views\\Admin\\UserList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\UserList.cshtml",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Views\\Admin\\UserList.cshtml",
+              "RelativeToolTip": "Views\\Admin\\UserList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T17:27:40.873Z",
+              "EditorCaption": ""
             }
           ]
         }

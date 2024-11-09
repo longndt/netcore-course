@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using web.Data;
 using web.Models;
 
@@ -15,10 +16,30 @@ namespace web.Controllers
     public class BooksController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IMemoryCache _cache;
 
-        public BooksController(ApplicationDbContext context)
+        public BooksController(ApplicationDbContext context, IMemoryCache cache)
         {
             _context = context;
+            _cache = cache;
+        }
+
+        public async Task<IActionResult> RecentBooks()
+        {
+            const string cacheKey = "recentBooks";
+            if (!_cache.TryGetValue(cacheKey, out List<Book> recentBooks))
+            {
+                recentBooks = await _context.Book
+                    .OrderByDescending(b => b.BookId)
+                    .Take(5)  //take 5 latest book
+                    .ToListAsync();
+                var cacheOptions = new MemoryCacheEntryOptions
+                {
+                    AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10)
+                };
+                _cache.Set(cacheKey, recentBooks, cacheOptions);
+            }
+            return View(recentBooks);
         }
 
         // GET: Books

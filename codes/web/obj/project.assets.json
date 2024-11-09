@@ -1345,6 +1345,18 @@
           }
         }
       },
+      "Pagination.EntityFrameworkCore.Extensions/2.5.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/Pagination.EntityFrameworkCore.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Pagination.EntityFrameworkCore.Extensions.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -5107,6 +5119,19 @@
         "lib/netstandard1.6/NuGet.Frameworks.xml",
         "nuget.frameworks.4.7.0.nupkg.sha512",
         "nuget.frameworks.nuspec"
+      ]
+    },
+    "Pagination.EntityFrameworkCore.Extensions/2.5.6": {
+      "sha512": "4k/PBxaXQ0Pti2A929cFOgQWm8v6pACq+3OxGNmRGmwyptCkWGA7OYP9ryZWozbOFutWAPrXz8YMNtNztGRbqA==",
+      "type": "package",
+      "path": "pagination.entityframeworkcore.extensions/2.5.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.1/Pagination.EntityFrameworkCore.Extensions.dll",
+        "pagination.entityframeworkcore.extensions.2.5.6.nupkg.sha512",
+        "pagination.entityframeworkcore.extensions.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -9690,7 +9715,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.32",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.32",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.32",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5",
+      "Pagination.EntityFrameworkCore.Extensions >= 2.5.6"
     ]
   },
   "packageFolders": {
@@ -9774,6 +9800,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.1.5, )"
+          },
+          "Pagination.EntityFrameworkCore.Extensions": {
+            "target": "Package",
+            "version": "[2.5.6, )"
           }
         },
         "imports": [

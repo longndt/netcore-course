@@ -81,6 +81,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "Pagination.EntityFrameworkCore.Extensions": {
+              "target": "Package",
+              "version": "[2.5.6, )"
             }
           },
           "imports": [
