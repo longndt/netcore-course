@@ -3,3 +3,6 @@ build_property.RootNamespace = web
 build_property.ProjectDir = D:\workspace\Teaching\netcore-course\codes\web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
