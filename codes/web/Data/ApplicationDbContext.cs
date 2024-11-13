@@ -22,8 +22,7 @@ namespace web.Data
         {
             base.OnModelCreating(builder);
 
-            //Seed data for User & Role`
-            //Seed data for User & Role`
+            //Seed data for User & Role
             SeedUserRole(builder);
 
             //Seed data for table Genre
