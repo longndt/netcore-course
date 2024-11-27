@@ -1,23 +1,24 @@
 {
   "Version": 1,
-  "Hash": "Wx+6gLqqyzNqrzxIZ25GZ1cPeYv9Y7IMx7tT3IKor+E=",
+  "Hash": "sjjApKSijtKtgH0yiGFFICL5ATWGOQrA+q+pMiZDldc=",
   "Source": "api.Server",
   "BasePath": "_content/api.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\workspace\\Teaching\\netcore-course\\codes\\api\\api.client\\api.client.esproj",
+      "Identity": "D:\\workspace\\FGW-COMP1682\\comp1682-fall2024\\api\\api.client\\api.client.esproj",
       "Version": 2,
       "Source": "api.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
       "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
       "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

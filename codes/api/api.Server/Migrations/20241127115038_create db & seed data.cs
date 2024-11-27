@@ -7,7 +7,7 @@
 namespace api.Server.Migrations
 {
     /// <inheritdoc />
-    public partial class First : Migration
+    public partial class createdbseeddata : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -21,7 +21,7 @@ namespace api.Server.Migrations
                     BookTitle = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     BookPrice = table.Column<double>(type: "float", nullable: false),
                     BookQuantity = table.Column<int>(type: "int", nullable: false),
-                    BookCover = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    BookCover = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -33,9 +33,11 @@ namespace api.Server.Migrations
                 columns: new[] { "BookId", "BookCover", "BookPrice", "BookQuantity", "BookTitle" },
                 values: new object[,]
                 {
-                    { 1, "https://m.media-amazon.com/images/I/61svWgrmT0L._AC_UF1000,1000_QL80_.jpg", 25.0, 10, "The Full Stack Developer" },
-                    { 2, "https://m.media-amazon.com/images/I/81iua0Wh34L._AC_UF1000,1000_QL80_.jpg", 35.0, 20, "ASP.NET Core Application Development" },
-                    { 3, "https://media.springernature.com/full/springer-static/cover-hires/book/978-1-4842-3781-6", 45.0, 30, "Getting to know Vue.js" }
+                    { 1, "https://m.media-amazon.com/images/I/41jEbK-jG+L._SX258_BO1,204,203,200_.jpg", 30.0, 15, "Clean Code: A Handbook of Agile Software Craftsmanship" },
+                    { 2, "https://m.media-amazon.com/images/I/41as+WafrFL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg", 35.0, 20, "The Pragmatic Programmer: Your Journey To Mastery" },
+                    { 3, "https://m.media-amazon.com/images/I/81kqrwS1nNL.jpg", 20.0, 10, "You Don’t Know JS Yet: Scope & Closures" },
+                    { 4, "https://m.media-amazon.com/images/I/51k+lN0RWbL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg", 50.0, 5, "Design Patterns: Elements of Reusable Object-Oriented Software" },
+                    { 5, "https://m.media-amazon.com/images/I/41MN80OBcBL.jpg", 75.0, 8, "Introduction to Algorithms" }
                 });
         }
 

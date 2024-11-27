@@ -16,7 +16,7 @@ namespace api.Server.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.4")
+                .HasAnnotation("ProductVersion", "8.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -30,6 +30,7 @@ namespace api.Server.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BookId"));
 
                     b.Property<string>("BookCover")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("BookPrice")
@@ -50,26 +51,42 @@ namespace api.Server.Migrations
                         new
                         {
                             BookId = 1,
-                            BookCover = "https://m.media-amazon.com/images/I/61svWgrmT0L._AC_UF1000,1000_QL80_.jpg",
-                            BookPrice = 25.0,
-                            BookQuantity = 10,
-                            BookTitle = "The Full Stack Developer"
+                            BookCover = "https://m.media-amazon.com/images/I/41jEbK-jG+L._SX258_BO1,204,203,200_.jpg",
+                            BookPrice = 30.0,
+                            BookQuantity = 15,
+                            BookTitle = "Clean Code: A Handbook of Agile Software Craftsmanship"
                         },
                         new
                         {
                             BookId = 2,
-                            BookCover = "https://m.media-amazon.com/images/I/81iua0Wh34L._AC_UF1000,1000_QL80_.jpg",
+                            BookCover = "https://m.media-amazon.com/images/I/41as+WafrFL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
                             BookPrice = 35.0,
                             BookQuantity = 20,
-                            BookTitle = "ASP.NET Core Application Development"
+                            BookTitle = "The Pragmatic Programmer: Your Journey To Mastery"
                         },
                         new
                         {
                             BookId = 3,
-                            BookCover = "https://media.springernature.com/full/springer-static/cover-hires/book/978-1-4842-3781-6",
-                            BookPrice = 45.0,
-                            BookQuantity = 30,
-                            BookTitle = "Getting to know Vue.js"
+                            BookCover = "https://m.media-amazon.com/images/I/81kqrwS1nNL.jpg",
+                            BookPrice = 20.0,
+                            BookQuantity = 10,
+                            BookTitle = "You Don’t Know JS Yet: Scope & Closures"
+                        },
+                        new
+                        {
+                            BookId = 4,
+                            BookCover = "https://m.media-amazon.com/images/I/51k+lN0RWbL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+                            BookPrice = 50.0,
+                            BookQuantity = 5,
+                            BookTitle = "Design Patterns: Elements of Reusable Object-Oriented Software"
+                        },
+                        new
+                        {
+                            BookId = 5,
+                            BookCover = "https://m.media-amazon.com/images/I/41MN80OBcBL.jpg",
+                            BookPrice = 75.0,
+                            BookQuantity = 8,
+                            BookTitle = "Introduction to Algorithms"
                         });
                 });
 #pragma warning restore 612, 618
