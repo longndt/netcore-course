@@ -85,11 +85,11 @@ namespace web.Controllers
                 //validate image is valid or not
                 if (BookCover != null && BookCover.Length > 0)
                 {
-                    //set image file name
-                    //Note: should add a prefix such as "BookId" to make sure the file name is unique
-                    var fileName = book.BookId + "_" + Path.GetFileName(BookCover.FileName);
+                    //set new image file name
+                    //Note: use Guid to generate unique file name
+                    var fileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(BookCover.FileName);
                     //set image file location
-                    //Note: should create a subfolder named "images" in "wwwroot" to store all images
+                    //Note: create a subfolder named "images" in "wwwroot" to store all images
                     var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images", fileName);
 
                     using (var stream = new FileStream(filePath, FileMode.Create))
@@ -143,11 +143,11 @@ namespace web.Controllers
                     //check if a new image file is uploaded or not
                     if (BookCover != null && BookCover.Length > 0)
                     {
-                        //set image file name
-                        //Note: should add a prefix such as "BookId" to make sure the file name is unique
-                        var fileName = book.BookId + "_" + Path.GetFileName(BookCover.FileName);
+                        //set new image file name
+                        //Note: use Guid to generate unique file name
+                        var fileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(BookCover.FileName);
                         //set image file location
-                        //Note: should create a subfolder named "images" in "wwwroot" to store all images
+                        //Note: create a subfolder named "images" in "wwwroot" to store all images
                         var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images", fileName);
 
                         using (var stream = new FileStream(filePath, FileMode.Create))

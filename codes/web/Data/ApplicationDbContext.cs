@@ -38,7 +38,7 @@ namespace web.Data
             //1. Create accounts
             var adminAccount = new IdentityUser
             {
-                Id = "user1",
+                Id = "admin-account",
                 UserName = "admin@gmail.com",
                 Email = "admin@gmail.com",
                 NormalizedUserName = "ADMIN@GMAIL.COM",
@@ -48,7 +48,7 @@ namespace web.Data
 
             var readerAccount = new IdentityUser
             {
-                Id = "user2",
+                Id = "reader-account",
                 UserName = "reader@gmail.com",
                 Email = "reader@gmail.com",
                 NormalizedUserName = "READER@GMAIL.COM",
@@ -70,13 +70,13 @@ namespace web.Data
             builder.Entity<IdentityRole>().HasData(
                 new IdentityRole
                 {
-                    Id = "role1",
+                    Id = "admin-role",
                     Name = "Admin",
                     NormalizedName = "ADMIN"
                 },
                  new IdentityRole
                  {
-                     Id = "role2",
+                     Id = "reader-role",
                      Name = "Reader",
                      NormalizedName = "READER"
                  });
@@ -85,13 +85,13 @@ namespace web.Data
             builder.Entity<IdentityUserRole<string>>().HasData(
                 new IdentityUserRole<string>
                 {
-                    UserId = "user1",
-                    RoleId = "role1"
+                    UserId = "admin-account",
+                    RoleId = "admin-role"
                 },
                 new IdentityUserRole<string>
                 {
-                    UserId = "user2",
-                    RoleId = "role2"
+                    UserId = "reader-account",
+                    RoleId = "reader-role"
                 }
              );
         }

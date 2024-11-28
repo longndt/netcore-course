@@ -48,15 +48,15 @@ namespace web.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "role1",
-                            ConcurrencyStamp = "2b784a93-54f7-4318-9877-8f0608309011",
+                            Id = "admin-role",
+                            ConcurrencyStamp = "f902069b-08f6-47b2-ae72-0c6900505f9b",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "role2",
-                            ConcurrencyStamp = "0e60230d-0f5c-4e3b-b775-a75857ddaef6",
+                            Id = "reader-role",
+                            ConcurrencyStamp = "7e75ab0c-d25f-461f-9ae3-67b7b150a709",
                             Name = "Reader",
                             NormalizedName = "READER"
                         });
@@ -153,33 +153,33 @@ namespace web.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "user1",
+                            Id = "admin-account",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e174383e-cc67-453d-8335-ed2589f911ee",
+                            ConcurrencyStamp = "6f5c508a-9ac8-4c9d-adad-412acf402b47",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEMpUCxRPaRGnBVPXr9maH77mgdnsiROQqcG95yoskPTltfiTz2FRNf9rfEAo90YWOg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPqOs6mHfRrLDuvMkELBGjk3talFJNC1lVZFX/poXMDca09wXB2g3omdZMNetraD/g==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "d1d46b7a-8a68-402b-9944-ea3d7cff331e",
+                            SecurityStamp = "5f35a4be-0f0e-4f3c-b68e-638ec0fc5a6f",
                             TwoFactorEnabled = false,
                             UserName = "admin@gmail.com"
                         },
                         new
                         {
-                            Id = "user2",
+                            Id = "reader-account",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "1e524b5f-6e6c-48e6-9809-d6c51a20ab80",
+                            ConcurrencyStamp = "7be9196a-a132-4583-8ae3-ab46c5cbdd5c",
                             Email = "reader@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "READER@GMAIL.COM",
                             NormalizedUserName = "READER@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEE2I6S5twO7TKTlEAjaCK3Ofl6W7ck8Ne/XcK9agprSkhxK4UKcAxdWJciYhh7hA1Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELJ2PLDfXQI6uqD6Si8EMur+Rkxtu7fChejlsU/VOkApZZymy+TDo9R4+oGVDqG89g==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "ade3c577-d6cb-4884-b59c-295ba04f0eb2",
+                            SecurityStamp = "ed6a3523-57b1-4b30-aa37-880f707acabc",
                             TwoFactorEnabled = false,
                             UserName = "reader@gmail.com"
                         });
@@ -250,13 +250,13 @@ namespace web.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "user1",
-                            RoleId = "role1"
+                            UserId = "admin-account",
+                            RoleId = "admin-role"
                         },
                         new
                         {
-                            UserId = "user2",
-                            RoleId = "role2"
+                            UserId = "reader-account",
+                            RoleId = "reader-role"
                         });
                 });
 
