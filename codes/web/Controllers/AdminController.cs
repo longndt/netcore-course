@@ -44,7 +44,7 @@ namespace web.Controllers
             return View(userList);
         }
 
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> ResetPass(string id)
         {
             var user = await _userManager.FindByIdAsync(id);
@@ -73,7 +73,7 @@ namespace web.Controllers
             return RedirectToAction("UserList");
         }
 
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> BlockUser(string id)
         {
             var user = await _userManager.FindByIdAsync(id);
@@ -99,7 +99,7 @@ namespace web.Controllers
             return RedirectToAction("UserList");
         }
 
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> UnblockUser(string id)
         {
             var user = await _userManager.FindByIdAsync(id);

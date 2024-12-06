@@ -3,10 +3,26 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace web.Migrations
 {
-    public partial class First : Migration
+    public partial class web : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "ActivityLogs",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserName = table.Column<string>(nullable: true),
+                    Path = table.Column<string>(nullable: true),
+                    AccessedAt = table.Column<DateTime>(nullable: false),
+                    DurationMs = table.Column<double>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ActivityLogs", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "AspNetRoles",
                 columns: table => new
@@ -192,8 +208,8 @@ namespace web.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "role1", "a648cc52-49a1-4955-ab15-e390601ba12c", "Admin", "ADMIN" },
-                    { "role2", "041f2952-3932-452e-9c82-5a8e63e51b36", "Reader", "READER" }
+                    { "admin-role", "8f57092c-d86b-474e-bf64-b107e9401a13", "Admin", "ADMIN" },
+                    { "reader-role", "d524376b-d5b6-4f1d-ab48-7c2d985621ec", "Reader", "READER" }
                 });
 
             migrationBuilder.InsertData(
@@ -201,8 +217,8 @@ namespace web.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "user1", 0, "c42291f8-236e-4324-a2a8-e4ac902cde80", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN@GMAIL.COM", "AQAAAAEAACcQAAAAENPoBzGhFZxaGHnLRBnP6OeJcBgjg65MKOCKdUkgrkNM/I21R8WKULBP+o3ODNtm/w==", null, false, "8f4b6acc-e9c4-4684-9546-41f357678c64", false, "admin@gmail.com" },
-                    { "user2", 0, "707a714b-26aa-4c9d-876b-c129892a0c45", "reader@gmail.com", true, false, null, "READER@GMAIL.COM", "READER@GMAIL.COM", "AQAAAAEAACcQAAAAEDUC29TwqIfj2DAhawQZu9iwLst++dzzo80l9g4F89wZneTJSk+0Njin97NhEYXlJw==", null, false, "01bb2ccf-d197-409a-a855-d6cc80231d37", false, "reader@gmail.com" }
+                    { "admin-account", 0, "d84efa8e-febd-454f-8461-73cb18244227", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN@GMAIL.COM", "AQAAAAEAACcQAAAAEO7hh3NNsPJeti3vzd8TVfcbh6b9ewZ2RL/+x6h5TwzjQNxdoco69LHz277gKlchcA==", null, false, "386eecdc-2994-4aaa-b776-7f1f1b986f31", false, "admin@gmail.com" },
+                    { "reader-account", 0, "c1c55b27-c338-445a-a7c3-5ce9be03f7c0", "reader@gmail.com", true, false, null, "READER@GMAIL.COM", "READER@GMAIL.COM", "AQAAAAEAACcQAAAAEFZx6ZNYSbWGQdbQA51jzDzwRW27toFjjwpVX1nsamquiAP+fI16ByBIITv48//QjQ==", null, false, "1952a61d-f24b-4d6d-8b9e-f90904febe3b", false, "reader@gmail.com" }
                 });
 
             migrationBuilder.InsertData(
@@ -220,8 +236,8 @@ namespace web.Migrations
                 columns: new[] { "UserId", "RoleId" },
                 values: new object[,]
                 {
-                    { "user1", "role1" },
-                    { "user2", "role2" }
+                    { "admin-account", "admin-role" },
+                    { "reader-account", "reader-role" }
                 });
 
             migrationBuilder.InsertData(
@@ -281,6 +297,9 @@ namespace web.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "ActivityLogs");
+
             migrationBuilder.DropTable(
                 name: "AspNetRoleClaims");
 

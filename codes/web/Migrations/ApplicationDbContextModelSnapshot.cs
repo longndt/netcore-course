@@ -49,14 +49,14 @@ namespace web.Migrations
                         new
                         {
                             Id = "admin-role",
-                            ConcurrencyStamp = "f902069b-08f6-47b2-ae72-0c6900505f9b",
+                            ConcurrencyStamp = "8f57092c-d86b-474e-bf64-b107e9401a13",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "reader-role",
-                            ConcurrencyStamp = "7e75ab0c-d25f-461f-9ae3-67b7b150a709",
+                            ConcurrencyStamp = "d524376b-d5b6-4f1d-ab48-7c2d985621ec",
                             Name = "Reader",
                             NormalizedName = "READER"
                         });
@@ -155,15 +155,15 @@ namespace web.Migrations
                         {
                             Id = "admin-account",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "6f5c508a-9ac8-4c9d-adad-412acf402b47",
+                            ConcurrencyStamp = "d84efa8e-febd-454f-8461-73cb18244227",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPqOs6mHfRrLDuvMkELBGjk3talFJNC1lVZFX/poXMDca09wXB2g3omdZMNetraD/g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEO7hh3NNsPJeti3vzd8TVfcbh6b9ewZ2RL/+x6h5TwzjQNxdoco69LHz277gKlchcA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "5f35a4be-0f0e-4f3c-b68e-638ec0fc5a6f",
+                            SecurityStamp = "386eecdc-2994-4aaa-b776-7f1f1b986f31",
                             TwoFactorEnabled = false,
                             UserName = "admin@gmail.com"
                         },
@@ -171,15 +171,15 @@ namespace web.Migrations
                         {
                             Id = "reader-account",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7be9196a-a132-4583-8ae3-ab46c5cbdd5c",
+                            ConcurrencyStamp = "c1c55b27-c338-445a-a7c3-5ce9be03f7c0",
                             Email = "reader@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "READER@GMAIL.COM",
                             NormalizedUserName = "READER@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAELJ2PLDfXQI6uqD6Si8EMur+Rkxtu7fChejlsU/VOkApZZymy+TDo9R4+oGVDqG89g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFZx6ZNYSbWGQdbQA51jzDzwRW27toFjjwpVX1nsamquiAP+fI16ByBIITv48//QjQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "ed6a3523-57b1-4b30-aa37-880f707acabc",
+                            SecurityStamp = "1952a61d-f24b-4d6d-8b9e-f90904febe3b",
                             TwoFactorEnabled = false,
                             UserName = "reader@gmail.com"
                         });

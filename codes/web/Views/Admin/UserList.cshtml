@@ -40,21 +40,15 @@
                     @{
                         if (!user.Roles.Contains("Admin"))
                         {
-                            <form asp-action="ResetPass" asp-route-id="@user.Id" method="post" style="display:inline;">
-                                <button type="submit" class="btn btn-warning">Reset Password</button>
-                            </form>
+                            <a asp-action="ResetPass" asp-route-id="@user.Id" type="submit" class="btn btn-warning">Reset Password</a>
 
                             @if (!user.IsBlocked)
                             {
-                                <form asp-action="BlockUser" asp-route-id="@user.Id" method="post" style="display:inline;">
-                                    <button type="submit" class="btn btn-danger">Block User</button>
-                                </form>
+                               <a asp-action="BlockUser" asp-route-id="@user.Id" type="submit" class="btn btn-danger">Block User</a>
                             }
                             else
                             {
-                                <form asp-action="UnblockUser" asp-route-id="@user.Id" method="post" style="display:inline;">
-                                    <button type="submit" class="btn btn-primary">Unblock User</button>
-                                </form>
+                               <a asp-action="UnblockUser" asp-route-id="@user.Id" type="submit" class="btn btn-primary">Unblock User</a>
                             }
                         }
                     }
@@ -64,4 +58,5 @@
         }
     </tbody>
 </table>
+
 

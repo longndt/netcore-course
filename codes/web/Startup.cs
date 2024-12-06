@@ -34,7 +34,7 @@ namespace web
 
             services.AddDefaultIdentity<IdentityUser>(options =>
             {
-                options.SignIn.RequireConfirmedAccount = true;
+                options.SignIn.RequireConfirmedAccount = false;
 
                 // Configure lockout settings for blocking users
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromDays(365);  

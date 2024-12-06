@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\migrations\\20241206075159_web.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:migrations\\20241206075159_web.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\areas\\identity\\identityhostingstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:areas\\identity\\identityhostingstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|d:\\workspace\\teaching\\netcore-course\\codes\\web\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7B3DE2F-C5CA-47BA-9204-E40555FB3872}|web.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -27,12 +55,103 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvyQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:54:33.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwJYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:51:46.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IdentityHostingStartup.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Areas\\Identity\\IdentityHostingStartup.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\IdentityHostingStartup.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Areas\\Identity\\IdentityHostingStartup.cs",
+              "RelativeToolTip": "Areas\\Identity\\IdentityHostingStartup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:51:06.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-06T07:49:57.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvy4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:44:27.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20241206075159_web.cs",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Migrations\\20241206075159_web.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241206075159_web.cs",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Migrations\\20241206075159_web.cs",
+              "RelativeToolTip": "Migrations\\20241206075159_web.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:51:59.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Views\\Admin\\UserList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\UserList.cshtml",
+              "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Views\\Admin\\UserList.cshtml",
+              "RelativeToolTip": "Views\\Admin\\UserList.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvz0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T07:40:11.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "BooksController.cs",
               "DocumentMoniker": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
               "ToolTip": "D:\\workspace\\Teaching\\netcore-course\\codes\\web\\Controllers\\BooksController.cs",
               "RelativeToolTip": "Controllers\\BooksController.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAADwv2wAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAKIAAAAAAAAAAADwv2wAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T10:27:19.775Z",
               "EditorCaption": ""
