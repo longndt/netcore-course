@@ -22,10 +22,10 @@ using web
 #line 2 "D:\workspace\Teaching\netcore-course\codes\web\Views\_ViewImports.cshtml"
 using web.Models
 
-#line default
-#line hidden
 #nullable disable
     ;
+    #line default
+    #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"7cf2dfcfbe6d253dc558cf3f1d3b5f802d72e36e924cf1c1bfb78fe82aa072d5", @"/Views/Genres/Details.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"d0709933357c930ca9a65d2fa17fdb69216827d281ff3e2fc8bf24fb9c2b37c3", @"/Views/_ViewImports.cshtml")]
     #nullable restore
@@ -90,7 +90,7 @@ using web.Models
 #nullable disable
 
             WriteLiteral("            <tr>\r\n                <td>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7cf2dfcfbe6d253dc558cf3f1d3b5f802d72e36e924cf1c1bfb78fe82aa072d55711", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7cf2dfcfbe6d253dc558cf3f1d3b5f802d72e36e924cf1c1bfb78fe82aa072d55719", async() => {
                 Write(
 #nullable restore
 #line 19 "D:\workspace\Teaching\netcore-course\codes\web\Views\Genres\Details.cshtml"
@@ -162,7 +162,7 @@ using web.Models
 #nullable disable
 
             WriteLiteral("        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7cf2dfcfbe6d253dc558cf3f1d3b5f802d72e36e924cf1c1bfb78fe82aa072d59181", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7cf2dfcfbe6d253dc558cf3f1d3b5f802d72e36e924cf1c1bfb78fe82aa072d59189", async() => {
                 WriteLiteral("Edit");
             }
             );
@@ -204,7 +204,7 @@ using web.Models
 #nullable disable
 
             WriteLiteral("    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7cf2dfcfbe6d253dc558cf3f1d3b5f802d72e36e924cf1c1bfb78fe82aa072d511586", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7cf2dfcfbe6d253dc558cf3f1d3b5f802d72e36e924cf1c1bfb78fe82aa072d511594", async() => {
                 WriteLiteral("Back to List");
             }
             );

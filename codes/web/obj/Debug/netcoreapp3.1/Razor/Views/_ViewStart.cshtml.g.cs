@@ -22,10 +22,10 @@ using web
 #line 2 "D:\workspace\Teaching\netcore-course\codes\web\Views\_ViewImports.cshtml"
 using web.Models
 
-#line default
-#line hidden
 #nullable disable
     ;
+    #line default
+    #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"47e02b4da20d198892b7b1b00b12944068797c438ef2e82d20ff70b4d56bad39", @"/Views/_ViewStart.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"d0709933357c930ca9a65d2fa17fdb69216827d281ff3e2fc8bf24fb9c2b37c3", @"/Views/_ViewImports.cshtml")]
     #nullable restore

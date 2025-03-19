@@ -40,10 +40,10 @@ using web.Areas.Identity.Pages.Account
 #line 1 "D:\workspace\Teaching\netcore-course\codes\web\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml"
 using web.Areas.Identity.Pages.Account.Manage
 
-#line default
-#line hidden
 #nullable disable
     ;
+    #line default
+    #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"6e153afbd7fba6e8770bbf21031adfd1fd15b37b1542f7bb24a623678aa8c5ba", @"/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"01c4ec7f00158df8cb56ac1579dbd8fb6b42b1c2b6f50563296c9b0b99cd7e7f", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"8732e139f91668a50f4e7d15f3be7a2524ee3a4ef5ac739c0a49c0e5c0e8283d", @"/Areas/Identity/Pages/Account/_ViewImports.cshtml")]
@@ -93,7 +93,7 @@ using web.Areas.Identity.Pages.Account.Manage
 #nullable disable
 
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6e153afbd7fba6e8770bbf21031adfd1fd15b37b1542f7bb24a623678aa8c5ba6420", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6e153afbd7fba6e8770bbf21031adfd1fd15b37b1542f7bb24a623678aa8c5ba6428", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -140,7 +140,7 @@ using web.Areas.Identity.Pages.Account.Manage
 </div>
 <div>
     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e153afbd7fba6e8770bbf21031adfd1fd15b37b1542f7bb24a623678aa8c5ba8955", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e153afbd7fba6e8770bbf21031adfd1fd15b37b1542f7bb24a623678aa8c5ba8963", async() => {
                 WriteLiteral("\r\n        <button id=\"reset-authenticator-button\" class=\"btn btn-danger\" type=\"submit\">Reset authenticator key</button>\r\n    ");
             }
             );

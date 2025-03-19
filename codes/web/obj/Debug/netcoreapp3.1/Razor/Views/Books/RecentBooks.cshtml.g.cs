@@ -22,10 +22,10 @@ using web
 #line 2 "D:\workspace\Teaching\netcore-course\codes\web\Views\_ViewImports.cshtml"
 using web.Models
 
-#line default
-#line hidden
 #nullable disable
     ;
+    #line default
+    #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"9075eb0c1bdc60f7fce2749260469bd869b9168244e81f0161f79d1a0ce525d5", @"/Views/Books/RecentBooks.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"d0709933357c930ca9a65d2fa17fdb69216827d281ff3e2fc8bf24fb9c2b37c3", @"/Views/_ViewImports.cshtml")]
     #nullable restore
@@ -76,7 +76,7 @@ using web.Models
 #nullable disable
 
             WriteLiteral("        <li>\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9075eb0c1bdc60f7fce2749260469bd869b9168244e81f0161f79d1a0ce525d54071", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9075eb0c1bdc60f7fce2749260469bd869b9168244e81f0161f79d1a0ce525d54079", async() => {
                 WriteLiteral("\r\n                ");
                 Write(
 #nullable restore

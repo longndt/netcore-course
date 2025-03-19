@@ -28,10 +28,10 @@ namespace AspNetCoreGeneratedDocument
 #line 3 "D:\workspace\Teaching\netcore-course\codes\web\Areas\Identity\Pages\_ViewImports.cshtml"
  using web.Areas.Identity.Pages
 
-#line default
-#line hidden
 #nullable disable
     ;
+    #line default
+    #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"01c4ec7f00158df8cb56ac1579dbd8fb6b42b1c2b6f50563296c9b0b99cd7e7f", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     #nullable restore
     internal sealed class Areas_Identity_Pages__ViewImports : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>

@@ -22,10 +22,10 @@ using web
 #line 2 "D:\workspace\Teaching\netcore-course\codes\web\Views\_ViewImports.cshtml"
 using web.Models
 
-#line default
-#line hidden
 #nullable disable
     ;
+    #line default
+    #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"623a299116b63232e3135d1d1dbe2a76222ac90c24c42cbd4fc87f95b935af3f", @"/Views/Books/Details.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"d0709933357c930ca9a65d2fa17fdb69216827d281ff3e2fc8bf24fb9c2b37c3", @"/Views/_ViewImports.cshtml")]
     #nullable restore
@@ -152,7 +152,7 @@ using web.Models
 #nullable disable
             );
             WriteLiteral("\r\n        </dt>\r\n        <dd class = \"col-sm-10\">\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "623a299116b63232e3135d1d1dbe2a76222ac90c24c42cbd4fc87f95b935af3f7976", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "623a299116b63232e3135d1d1dbe2a76222ac90c24c42cbd4fc87f95b935af3f7984", async() => {
                 Write(
 #nullable restore
 #line 35 "D:\workspace\Teaching\netcore-course\codes\web\Views\Books\Details.cshtml"
@@ -205,7 +205,7 @@ using web.Models
 #nullable disable
 
             WriteLiteral("        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "623a299116b63232e3135d1d1dbe2a76222ac90c24c42cbd4fc87f95b935af3f11022", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "623a299116b63232e3135d1d1dbe2a76222ac90c24c42cbd4fc87f95b935af3f11030", async() => {
                 WriteLiteral("Edit");
             }
             );
@@ -247,7 +247,7 @@ using web.Models
 #nullable disable
 
             WriteLiteral("    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "623a299116b63232e3135d1d1dbe2a76222ac90c24c42cbd4fc87f95b935af3f13426", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "623a299116b63232e3135d1d1dbe2a76222ac90c24c42cbd4fc87f95b935af3f13434", async() => {
                 WriteLiteral("Back to List");
             }
             );

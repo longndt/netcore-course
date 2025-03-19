@@ -22,10 +22,10 @@ using web
 #line 2 "D:\workspace\Teaching\netcore-course\codes\web\Views\_ViewImports.cshtml"
 using web.Models
 
-#line default
-#line hidden
 #nullable disable
     ;
+    #line default
+    #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"47ec6da7510938a0d6b83ea7c9bfa2efdf31726d62c5006dd47c09e2ea1b8e5b", @"/Views/Genres/Index.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"d0709933357c930ca9a65d2fa17fdb69216827d281ff3e2fc8bf24fb9c2b37c3", @"/Views/_ViewImports.cshtml")]
     #nullable restore
@@ -93,7 +93,7 @@ using web.Models
 #nullable disable
 
             WriteLiteral("    <p>\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47ec6da7510938a0d6b83ea7c9bfa2efdf31726d62c5006dd47c09e2ea1b8e5b6576", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47ec6da7510938a0d6b83ea7c9bfa2efdf31726d62c5006dd47c09e2ea1b8e5b6584", async() => {
                 WriteLiteral("Create New");
             }
             );
@@ -149,7 +149,7 @@ using web.Models
 #nullable disable
             );
             WriteLiteral("\r\n                </td>\r\n                <td>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47ec6da7510938a0d6b83ea7c9bfa2efdf31726d62c5006dd47c09e2ea1b8e5b9182", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47ec6da7510938a0d6b83ea7c9bfa2efdf31726d62c5006dd47c09e2ea1b8e5b9190", async() => {
                 WriteLiteral("Details");
             }
             );
@@ -194,7 +194,7 @@ using web.Models
 #nullable disable
 
             WriteLiteral("                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47ec6da7510938a0d6b83ea7c9bfa2efdf31726d62c5006dd47c09e2ea1b8e5b11825", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47ec6da7510938a0d6b83ea7c9bfa2efdf31726d62c5006dd47c09e2ea1b8e5b11833", async() => {
                 WriteLiteral("Edit");
             }
             );
@@ -228,7 +228,7 @@ using web.Models
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47ec6da7510938a0d6b83ea7c9bfa2efdf31726d62c5006dd47c09e2ea1b8e5b14175", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47ec6da7510938a0d6b83ea7c9bfa2efdf31726d62c5006dd47c09e2ea1b8e5b14183", async() => {
                 WriteLiteral("Delete");
             }
             );

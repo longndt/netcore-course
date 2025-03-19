@@ -22,10 +22,10 @@ using web
 #line 2 "D:\workspace\Teaching\netcore-course\codes\web\Views\_ViewImports.cshtml"
 using web.Models
 
-#line default
-#line hidden
 #nullable disable
     ;
+    #line default
+    #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"33888797f032b3bea4e80b45fef162b3572f8e921211e6fc4bd91030ff44c9b5", @"/Views/Admin/UserList.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"d0709933357c930ca9a65d2fa17fdb69216827d281ff3e2fc8bf24fb9c2b37c3", @"/Views/_ViewImports.cshtml")]
     #nullable restore
@@ -214,7 +214,7 @@ using web.Models
 #nullable disable
 
             WriteLiteral("                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33888797f032b3bea4e80b45fef162b3572f8e921211e6fc4bd91030ff44c9b59502", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33888797f032b3bea4e80b45fef162b3572f8e921211e6fc4bd91030ff44c9b59510", async() => {
                 WriteLiteral("Reset Password");
             }
             );
@@ -259,7 +259,7 @@ using web.Models
 #nullable disable
 
             WriteLiteral("                               ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33888797f032b3bea4e80b45fef162b3572f8e921211e6fc4bd91030ff44c9b512204", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33888797f032b3bea4e80b45fef162b3572f8e921211e6fc4bd91030ff44c9b512212", async() => {
                 WriteLiteral("Block User");
             }
             );
@@ -305,7 +305,7 @@ using web.Models
 #nullable disable
 
             WriteLiteral("                               ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33888797f032b3bea4e80b45fef162b3572f8e921211e6fc4bd91030ff44c9b514920", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33888797f032b3bea4e80b45fef162b3572f8e921211e6fc4bd91030ff44c9b514928", async() => {
                 WriteLiteral("Unblock User");
             }
             );
